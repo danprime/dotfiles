@@ -1,6 +1,10 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+
+"junegunn vim plugin manager
+"https://github.com/junegunn/vim-plug
+"curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 call plug#begin('~/.vim/plugins')
 Plug 'tpope/vim-fugitive'
 " Plug 'zxqfl/tabnine-vim'
